@@ -25,7 +25,8 @@ source ./install-object-detection-api.sh
 ```
 (clones the tensorflow/models repo, compiles the protos, and installs the Object Detection API through an Environment Variable)
 
-## 
+## Run the model
+
 Each time you open a new terminal reactivate the object_detection module with:
 ```
 export PYTHONPATH=$PYTHONPATH:/home/pi/tensorflow/models/research:/home/pi/tensorflow/models/research/slim
